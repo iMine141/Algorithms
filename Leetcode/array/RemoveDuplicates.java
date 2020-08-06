@@ -1,4 +1,4 @@
-package Leetcode.Array;
+package Leetcode.array;
 
 /**
  * @author wym

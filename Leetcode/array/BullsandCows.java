@@ -1,6 +1,4 @@
-package Leetcode.Array;
-
-import java.util.HashMap;
+package Leetcode.array;
 
 /**
  * @author wym
