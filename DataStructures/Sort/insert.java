@@ -4,6 +4,11 @@ package DataStructures.Sort;
  * @author wym
  */
 public class insert {
+    public static void main(String[] args) {
+        int insertBase = 10000;
+        int len=(int)Math.ceil(100000D / insertBase);
+        System.out.println(len);
+    }
     /**
      * 插入排序
      */
