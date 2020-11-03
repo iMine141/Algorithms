@@ -5,12 +5,10 @@ package DataStructures.Sort;
  */
 public class insert {
     public static void main(String[] args) {
-        int insertBase = 10000;
-        int len=(int)Math.ceil(100000D / insertBase);
-        System.out.println(len);
+
     }
     /**
-     * 插入排序
+     * 直接插入排序 (n^2)
      */
     public static void insert(int array[]){
         for (int i = 1; i < array.length; i++) {
@@ -23,4 +21,6 @@ public class insert {
             array[j] = temp;
         }
     }
+
+
 }
